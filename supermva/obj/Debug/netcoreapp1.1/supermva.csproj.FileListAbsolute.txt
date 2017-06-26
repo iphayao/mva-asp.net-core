@@ -1,0 +1,1 @@
+C:\Users\Phayao\codes\github\mva-asp.net-core-new\supermva\bin\Debug\netcoreapp1.1\supermva.dll
