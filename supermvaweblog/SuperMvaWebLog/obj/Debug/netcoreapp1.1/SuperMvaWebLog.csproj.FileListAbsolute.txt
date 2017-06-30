@@ -1,0 +1,9 @@
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\bin\Debug\netcoreapp1.1\SuperMvaWebLog.deps.json
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\bin\Debug\netcoreapp1.1\SuperMvaWebLog.runtimeconfig.json
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\bin\Debug\netcoreapp1.1\SuperMvaWebLog.runtimeconfig.dev.json
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\bin\Debug\netcoreapp1.1\SuperMvaWebLog.dll
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\bin\Debug\netcoreapp1.1\SuperMvaWebLog.pdb
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\obj\Debug\netcoreapp1.1\SuperMvaWebLog.csprojResolveAssemblyReference.cache
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\obj\Debug\netcoreapp1.1\SuperMvaWebLog.AssemblyInfo.cs
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\obj\Debug\netcoreapp1.1\SuperMvaWebLog.dll
+C:\Users\Phayao\Codes\github\mva-asp.net-core-new\SuperMvaWebLog\SuperMvaWebLog\obj\Debug\netcoreapp1.1\SuperMvaWebLog.pdb
