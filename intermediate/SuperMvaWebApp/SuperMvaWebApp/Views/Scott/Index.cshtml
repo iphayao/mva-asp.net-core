@@ -1,5 +1,7 @@
 ﻿@model SuperMvaWebApp.Controllers.ScottIndexViewModel
+@inject SuperMvaWebApp.Services.IRequestId req
 
 <h1>Person!</h1>
 <p>Name: @Model.Name</p>
 <p>Age: @Model.Age</p>
+<p>Reqeusted: @req.Id</p>

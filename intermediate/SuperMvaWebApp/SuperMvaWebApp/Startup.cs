@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
+using SuperMvaWebApp.Services;
+using SuperMvaWebApp.Middleware;
 
 namespace SuperMvaWebApp
 {
@@ -28,6 +30,8 @@ namespace SuperMvaWebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSingleton<IRequestIdFactory, RequestIdFactory>();
+            services.AddScoped<IRequestId, RequestId>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,47 +43,14 @@ namespace SuperMvaWebApp
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler(subApp =>
-                {
-                    subApp.Run(async context =>
-                    {
-                        context.Response.ContentType = "text/html";
-                        await context.Response.WriteAsync("<strong>Application Error in Production. Context Support</strong>");
-                        await context.Response.WriteAsync(new string(' ', 512));
-                    });
-                });
-            }
 
-            app.UseStatusCodePages(subApp =>
-            {
-                subApp.Run(async context =>
-                {
-                    context.Response.ContentType = "text/html";
-                    await context.Response.WriteAsync("<strong>NOT FOUND!</strong>");
-                    await context.Response.WriteAsync(new string(' ', 512));
-                });
-            });
-
-            app.UseEnvironmentDisplay();
-
-            /*app.Run(context =>
-            {
-                context.Response.StatusCode = 404;
-                return Task.FromResult(0);
-            });
-
-            app.Run(context =>
-            {
-                throw new InvalidOperationException("Did I do that? - Phayao!");
-            });*/
+            app.UseMiddleware<RequestIdMiddleware>();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                             name: "default", 
-                            template: "{controller=Home}/{action=Index}/{id?}");
+                            template: "{controller=Scott}/{action=Index}/{id?}");
             });
         }
     }
