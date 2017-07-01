@@ -1,0 +1,10 @@
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\bin\Debug\netcoreapp1.1\SuperMvaWebMovies.deps.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\bin\Debug\netcoreapp1.1\SuperMvaWebMovies.runtimeconfig.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\bin\Debug\netcoreapp1.1\SuperMvaWebMovies.runtimeconfig.dev.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\bin\Debug\netcoreapp1.1\SuperMvaWebMovies.dll
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\bin\Debug\netcoreapp1.1\SuperMvaWebMovies.pdb
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\obj\Debug\netcoreapp1.1\SuperMvaWebMovies.AssemblyInfo.cs
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\obj\Debug\netcoreapp1.1\SuperMvaWebMovies.dll
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\obj\Debug\netcoreapp1.1\SuperMvaWebMovies.pdb
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\obj\Debug\netcoreapp1.1\SuperMvaWebMovies.csprojResolveAssemblyReference.cache
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebMovies\SuperMvaWebMovies\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
