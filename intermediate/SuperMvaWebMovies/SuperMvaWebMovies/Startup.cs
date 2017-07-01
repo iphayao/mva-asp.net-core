@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using SuperMvaWebMovies.Data;
 using SuperMvaWebMovies.Models;
 using SuperMvaWebMovies.Services;
+using System.Text;
 
 namespace SuperMvaWebMovies
 {
@@ -76,6 +77,8 @@ namespace SuperMvaWebMovies
             }
 
             app.UseStaticFiles();
+
+            //app.UseEnvironmentDisplay();
 
             app.UseIdentity();
 
