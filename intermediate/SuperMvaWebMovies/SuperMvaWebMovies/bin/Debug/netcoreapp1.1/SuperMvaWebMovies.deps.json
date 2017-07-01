@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "b36397f9f04a7e158080a07f72a8f77e3656ea45"
+    "signature": "3ea3a40a51f400ed15e50a0ab051536963aaed7b"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.2",
           "Microsoft.AspNetCore.Authentication.Cookies": "1.1.2",
+          "Microsoft.AspNetCore.Authentication.Facebook": "1.1.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.1.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.2",
           "Microsoft.AspNetCore.Mvc": "1.1.3",
@@ -164,6 +165,32 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.authentication.facebook/1.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.OAuth": "1.1.2",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.authentication.oauth/1.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "1.1.2",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.OAuth.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Authentication.OAuth.dll": {}
         }
       },
       "microsoft.aspnetcore.authorization/1.1.2": {
@@ -3616,6 +3643,20 @@
       "sha512": "sha512-ES5ZZ+9RJCW9BgScHE+zjhJugoUUZDRJVGY0fqtsUxIw7lL7yFzn6/ikBl/gPM4EmauEVHQN7FZ0PczK7RBP7Q==",
       "path": "microsoft.aspnetcore.authentication.cookies/1.1.2",
       "hashPath": "microsoft.aspnetcore.authentication.cookies.1.1.2.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.authentication.facebook/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2YDEnbeJeR+jCRCl6a5c9Y9wRjPdP/H1KMSNSg2xHg7Hucy/2SITWh9Tv+sFjVHC8WWruSYMdS8mWXpDnxsyzw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/1.1.2",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.1.1.2.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.authentication.oauth/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8AALgN9vYm3rKhgdrMYebYbVsyK/XcS64ghWtFl3o0fHg865TqZov+bqca3E8RP63nTNtuvVfhD1Xh04nnKFwQ==",
+      "path": "microsoft.aspnetcore.authentication.oauth/1.1.2",
+      "hashPath": "microsoft.aspnetcore.authentication.oauth.1.1.2.nupkg.sha512"
     },
     "microsoft.aspnetcore.authorization/1.1.2": {
       "type": "package",
