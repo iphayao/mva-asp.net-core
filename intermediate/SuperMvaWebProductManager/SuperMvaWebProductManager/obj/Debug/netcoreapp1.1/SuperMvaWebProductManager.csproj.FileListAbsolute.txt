@@ -1,0 +1,9 @@
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\bin\Debug\netcoreapp1.1\SuperMvaWebProductManager.deps.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\bin\Debug\netcoreapp1.1\SuperMvaWebProductManager.runtimeconfig.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\bin\Debug\netcoreapp1.1\SuperMvaWebProductManager.runtimeconfig.dev.json
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\bin\Debug\netcoreapp1.1\SuperMvaWebProductManager.dll
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\obj\Debug\netcoreapp1.1\SuperMvaWebProductManager.AssemblyInfo.cs
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\obj\Debug\netcoreapp1.1\SuperMvaWebProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\bin\Debug\netcoreapp1.1\SuperMvaWebProductManager.pdb
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\obj\Debug\netcoreapp1.1\SuperMvaWebProductManager.dll
+C:\Users\Phayao\codes\github\mva-asp.net-core\intermediate\SuperMvaWebProductManager\SuperMvaWebProductManager\obj\Debug\netcoreapp1.1\SuperMvaWebProductManager.pdb
