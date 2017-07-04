@@ -45,6 +45,8 @@ namespace SuperMvaWebApp
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseEnvironmentDisplay();
+
             app.UseMiddleware<RequestIdMiddleware>();
 
             app.UseMvc(routes =>
